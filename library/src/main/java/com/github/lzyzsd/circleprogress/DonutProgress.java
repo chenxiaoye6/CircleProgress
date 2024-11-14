@@ -62,7 +62,7 @@ public class DonutProgress extends View
     private final float default_text_size;
     private final float default_inner_bottom_text_size;
     private final int min_size;
-    private boolean clockWise;
+    private boolean clockWise=true;
 
 
     private static final String INSTANCE_STATE = "saved_instance";
